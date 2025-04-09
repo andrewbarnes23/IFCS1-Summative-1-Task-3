@@ -21,6 +21,6 @@ def test_othernumbers():
     assert fizz_buzz(11) == 11
 
 def test_notequals():
-    assert fizz_buzz(1) != "Fizz"
+    assert fizz_buzz(1) == "Fizz"
     assert fizz_buzz(2) != "Buzz"
     assert fizz_buzz(7) != "FizzBuzz"
